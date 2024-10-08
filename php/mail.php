@@ -142,7 +142,7 @@ if (filter_var($toEmail, FILTER_VALIDATE_EMAIL)) {
 	}
 	//----- reCaptcha End -----//
 
-	$success = "Thank you for contacting us and will be in touch with you very soon."; // Success Message
+	$success = "Thank you for contacting me! I'll be in touch with you very soon."; // Success Message
 
 	try {
 		$resp = $mail->send();
